@@ -26,7 +26,7 @@ Helm chart for RespondNow services
 | mongodb.service.port | int | `27017` |  |
 | portal.annotations | object | `{}` |  |
 | portal.image.pullPolicy | string | `"Always"` |  |
-| portal.image.repository | string | `"imrajdas/respondnow-portal"` |  |
+| portal.image.repository | string | `"ghcr.io/respondnow/respondnow-portal"` |  |
 | portal.image.tag | string | `"main"` |  |
 | portal.ingress.annotations | object | `{}` |  |
 | portal.ingress.enabled | bool | `true` |  |
@@ -53,7 +53,7 @@ Helm chart for RespondNow services
 | portal.replicaCount | int | `1` |  |
 | portal.resources | object | `{}` |  |
 | portal.service.port | int | `8191` |  |
-| portal.service.type | string | `"ClusterIP"` |  |
+| portal.service.type | string | `"LoadBalancer"` |  |
 | server.annotations | object | `{}` |  |
 | server.configMap.data.CONNECTION_MODE | string | `"SOCKET"` |  |
 | server.configMap.data.DEFAULT_USER_EMAIL | string | `"admin@respondnow.io"` |  |
@@ -67,7 +67,7 @@ Helm chart for RespondNow services
 | server.configMap.data.MONGO_URL | string | `"mongodb://respondnow-mongodb:27017"` |  |
 | server.configMap.data.ZOOM_LINK | string | `"http://my-example-zoom-link"` |  |
 | server.image.pullPolicy | string | `"Always"` |  |
-| server.image.repository | string | `"imrajdas/respondnow-server"` |  |
+| server.image.repository | string | `"ghcr.io/respondnow/respondnow-server"` |  |
 | server.image.tag | string | `"main"` |  |
 | server.ingress.annotations | object | `{}` |  |
 | server.ingress.enabled | bool | `true` |  |
