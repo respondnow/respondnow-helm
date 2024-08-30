@@ -25,7 +25,11 @@ helm repo update
 ### Step 2: Install RespondNow
 
 ```bash
-helm install respondnow respondnow --namespace=respondnow --create-namespace
+helm install respondnow respondnow/respondnow \
+--namespace=respondnow --create-namespace \
+--set server.configMap.data.ENABLE_SLACK_CLIENT=true \
+--set server.secret.data.SLACK_APP_TOKEN="FILL-YOUR-SLACK-APP-TOKEN" \
+--set server.secret.data.SLACK_BOT_TOKEN="FILL-YOUR-SLACK-BOT-TOKEN"
 ```
 
 ### Step 3: Access the Application
