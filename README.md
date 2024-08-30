@@ -28,15 +28,16 @@ helm repo update
 helm install respondnow respondnow/respondnow \
 --namespace=respondnow --create-namespace \
 --set server.configMap.data.ENABLE_SLACK_CLIENT=true \
+--set server.configMap.data.INCIDENT_CHANNEL_ID="FILL-YOUR-SLACK-INCIDENT-CHANNEL-ID" \
 --set server.secret.data.SLACK_APP_TOKEN="FILL-YOUR-SLACK-APP-TOKEN" \
 --set server.secret.data.SLACK_BOT_TOKEN="FILL-YOUR-SLACK-BOT-TOKEN"
 ```
 
 ### Step 3: Access the Application
 
-Use the service URL for the respondnow-portal service (modify service type as needed) to access the portal. Default admin credentials are admin@respondnow.io and respondnow
+Use the service URL for the respondnow-portal service (modify service type as needed) to access the portal. <br/> Default admin credentials are `admin@respondnow.io` and `respondnow`.
 
-Alternative: Port Forwarding
+`Alternative`: Port Forwarding
 If you prefer, you can access the RespondNow portal via port forwarding:
 
 ```bash
