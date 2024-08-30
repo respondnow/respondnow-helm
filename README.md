@@ -11,7 +11,7 @@ RespondNow is an open-source incident management application. It integrates with
 ## Prerequisites
 
 - Helm 3.x or above
-- Kubernetes 1.19+ (tested on 1.20+)
+- Kubernetes 1.22+
 
 ## Installation
 
