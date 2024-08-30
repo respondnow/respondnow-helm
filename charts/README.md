@@ -14,8 +14,6 @@ Helm chart for RespondNow services
 
 ## Requirements
 
-Kubernetes: `>=1.22.0`
-
 | Repository | Name | Version |
 |------------|------|---------|
 | https://charts.bitnami.com/bitnami | mongodb | 15.6.21 |
