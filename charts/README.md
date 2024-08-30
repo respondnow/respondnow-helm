@@ -8,9 +8,9 @@ Helm chart for RespondNow services
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| Raj Das | <rajbabu.das@harness.io> |  |
-| Sagar Kumar | <sagar.kumar@harness.io> |  |
-| Karthik S | <karthik.s@harness.io> |  |
+| imrajdas | <rajbabu.das@harness.io> |  |
+| sagarkrsd | <sagar.kumar@harness.io> |  |
+| ksatchit | <karthik.s@harness.io> |  |
 
 ## Requirements
 

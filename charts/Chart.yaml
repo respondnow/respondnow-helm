@@ -10,11 +10,11 @@ dependencies:
     repository: https://charts.bitnami.com/bitnami
 
 maintainers:
-  - name: Raj Das
+  - name: imrajdas
     email: rajbabu.das@harness.io
-  - name: Sagar Kumar
+  - name: sagarkrsd
     email: sagar.kumar@harness.io
-  - name: Karthik S
+  - name: ksatchit
     email: karthik.s@harness.io
 
 kubeVersion: ">=1.22.0"
