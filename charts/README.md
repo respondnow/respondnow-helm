@@ -4,7 +4,17 @@
 
 Helm chart for RespondNow services
 
+## Maintainers
+
+| Name | Email | Url |
+| ---- | ------ | --- |
+| imrajdas | <rajbabu.das@harness.io> |  |
+| sagarkrsd | <sagar.kumar@harness.io> |  |
+| ksatchit | <karthik.s@harness.io> |  |
+
 ## Requirements
+
+Kubernetes: `>=1.22.0`
 
 | Repository | Name | Version |
 |------------|------|---------|

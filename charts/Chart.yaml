@@ -8,3 +8,13 @@ dependencies:
   - name: mongodb
     version: 15.6.21
     repository: https://charts.bitnami.com/bitnami
+
+maintainers:
+  - name: imrajdas
+    email: rajbabu.das@harness.io
+  - name: sagarkrsd
+    email: sagar.kumar@harness.io
+  - name: ksatchit
+    email: karthik.s@harness.io
+
+kubeVersion: ">=1.22.0"
