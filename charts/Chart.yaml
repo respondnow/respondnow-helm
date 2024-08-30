@@ -16,5 +16,3 @@ maintainers:
     email: sagar.kumar@harness.io
   - name: ksatchit
     email: karthik.s@harness.io
-
-kubeVersion: ">=1.22.0"
