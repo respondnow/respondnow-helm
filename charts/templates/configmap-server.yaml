@@ -13,7 +13,7 @@ data:
     serverURL: https://localhost:8080
     skipSecureVerify: true
     roles:
-      Incident Commander: "The Incident Commander is the decision maker..."
+      Incident Commander: "Thde Incident Commander is the decision maker..."
       Communications Lead: "The purpose of the Communications Lead..."
     severities:
       SEV0 - Critical, High Impact: 'This signifies a critical production...'
