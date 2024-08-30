@@ -70,7 +70,7 @@ portal:
     tag: "main"
     pullPolicy: Always
   service:
-    type: ClusterIP
+    type: LoadBalancer
     port: 8191
   ingress:
     enabled: true
