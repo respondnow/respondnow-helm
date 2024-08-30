@@ -6,7 +6,6 @@ on:
       - master
       - main
       - '!gh-pages'
-      - helm-pr-check
     paths-ignore:
       - README.md
       - .gitignore
