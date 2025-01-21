@@ -25,10 +25,6 @@ spec:
         - name: {{ .Values.server.name }}
           image: "{{ .Values.server.image.repository }}:{{ .Values.server.image.tag }}"
           imagePullPolicy: {{ .Values.server.image.pullPolicy }}
-          command:
-            - ./respondnow
-          args:
-            - '--config-file=/etc/config/config.yaml'
           ports:
             - containerPort: 8080
           envFrom:
