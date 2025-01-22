@@ -1,6 +1,6 @@
 # respondnow
 
-![Version: 0.1.2](https://img.shields.io/badge/Version-0.1.2-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
+![Version: 0.1.3](https://img.shields.io/badge/Version-0.1.3-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
 
 Helm chart for RespondNow services
 
@@ -35,7 +35,7 @@ Helm chart for RespondNow services
 | portal.annotations | object | `{}` |  |
 | portal.image.pullPolicy | string | `"Always"` |  |
 | portal.image.repository | string | `"ghcr.io/respondnow/respondnow-portal"` |  |
-| portal.image.tag | string | `"0.1.2"` |  |
+| portal.image.tag | string | `"0.2.0"` |  |
 | portal.ingress.annotations | object | `{}` |  |
 | portal.ingress.enabled | bool | `true` |  |
 | portal.ingress.hosts[0].host | string | `"server.example.com"` |  |
@@ -70,7 +70,7 @@ Helm chart for RespondNow services
 | server.configMap.data.SLACK_INCIDENT_CHANNEL_ID | string | `""` |  |
 | server.image.pullPolicy | string | `"Always"` |  |
 | server.image.repository | string | `"ghcr.io/respondnow/respondnow-server"` |  |
-| server.image.tag | string | `"0.1.2"` |  |
+| server.image.tag | string | `"0.2.0"` |  |
 | server.ingress.annotations | object | `{}` |  |
 | server.ingress.enabled | bool | `true` |  |
 | server.ingress.hosts[0].host | string | `"server.example.com"` |  |
