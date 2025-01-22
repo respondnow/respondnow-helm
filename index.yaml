@@ -3,6 +3,26 @@ entries:
   respondnow:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-01-22T03:13:58.366655594Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.6.21
+    description: Helm chart for RespondNow services
+    digest: 7aa456f81f9d7f11a341b69188bf3be59a5693b50733208fb2377587aab26a05
+    maintainers:
+    - email: rajbabu.das@harness.io
+      name: imrajdas
+    - email: sagar.kumar@harness.io
+      name: sagarkrsd
+    - email: karthik.s@harness.io
+      name: ksatchit
+    name: respondnow
+    urls:
+    - https://github.com/respondnow/respondnow-helm/releases/download/respondnow-0.1.1/respondnow-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-08-30T19:34:45.282157703Z"
     dependencies:
     - name: mongodb
@@ -21,4 +41,4 @@ entries:
     urls:
     - https://github.com/respondnow/respondnow-helm/releases/download/respondnow-0.1.0/respondnow-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-30T19:34:45.282166339Z"
+generated: "2025-01-22T03:13:58.366669279Z"
