@@ -13,9 +13,8 @@ server:
     port: 8080
   configMap:
     data:
-      MONGO_URL: "mongodb://respondnow-mongodb:27017"
-      MONGO_DB_NAME: "respondnow"
-      MONGO_DB_USERNAME: "root"
+      MONGO_DATABASE: respondnow
+      SLACK_INCIDENT_CHANNEL_ID: ""
       ZOOM_LINK: "http://my-example-zoom-link"
       ENABLE_SLACK_CLIENT: "false"
       INCIDENT_CHANNEL_ID: ""
@@ -26,7 +25,8 @@ server:
       DEFAULT_USER_PASSWORD: "respondnow"
   secret:
     data:
-      MONGO_DB_PASSWORD: "1234"
+      MONGO_URI: "mongodb://root:1234@respondnow-mongodb:27017"
+      JWT_SECRET: ""
       SLACK_APP_TOKEN: ""
       SLACK_BOT_TOKEN: ""
   ingress:
