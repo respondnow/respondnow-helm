@@ -1,6 +1,6 @@
 # respondnow
 
-![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
+![Version: 0.1.2](https://img.shields.io/badge/Version-0.1.2-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
 
 Helm chart for RespondNow services
 
@@ -63,16 +63,11 @@ Helm chart for RespondNow services
 | portal.service.port | int | `8191` |  |
 | portal.service.type | string | `"LoadBalancer"` |  |
 | server.annotations | object | `{}` |  |
-| server.configMap.data.CONNECTION_MODE | string | `"SOCKET"` |  |
 | server.configMap.data.DEFAULT_USER_EMAIL | string | `"admin@respondnow.io"` |  |
-| server.configMap.data.DEFAULT_USER_ID | string | `"admin"` |  |
 | server.configMap.data.DEFAULT_USER_NAME | string | `"Admin"` |  |
 | server.configMap.data.DEFAULT_USER_PASSWORD | string | `"respondnow"` |  |
-| server.configMap.data.ENABLE_SLACK_CLIENT | string | `"false"` |  |
-| server.configMap.data.INCIDENT_CHANNEL_ID | string | `""` |  |
 | server.configMap.data.MONGO_DATABASE | string | `"respondnow"` |  |
 | server.configMap.data.SLACK_INCIDENT_CHANNEL_ID | string | `""` |  |
-| server.configMap.data.ZOOM_LINK | string | `"http://my-example-zoom-link"` |  |
 | server.image.pullPolicy | string | `"Always"` |  |
 | server.image.repository | string | `"ghcr.io/respondnow/respondnow-server"` |  |
 | server.image.tag | string | `"0.1.0"` |  |
@@ -100,7 +95,7 @@ Helm chart for RespondNow services
 | server.probes.readinessProbe.timeoutSeconds | int | `3` |  |
 | server.replicaCount | int | `1` |  |
 | server.resources | object | `{}` |  |
-| server.secret.data.JWT_SECRET | string | `""` |  |
+| server.secret.data.JWT_SECRET | string | `"3iMkWJA5hD4DA7Nqe3GNOc1GfMtEsHyRiJcQdsxB2mc8JhySOUeBVYNRxfqBtijQ"` |  |
 | server.secret.data.MONGO_URI | string | `"mongodb://root:1234@respondnow-mongodb:27017"` |  |
 | server.secret.data.SLACK_APP_TOKEN | string | `""` |  |
 | server.secret.data.SLACK_BOT_TOKEN | string | `""` |  |
