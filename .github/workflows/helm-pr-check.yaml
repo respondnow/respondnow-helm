@@ -23,7 +23,7 @@ jobs:
   check-docs-update:
     name: check-docs-update
     runs-on: ubuntu-latest
-    container: jnorwood/helm-docs:v1.13.1
+    container: jnorwood/helm-docs:v1.14.2
     steps:
       - name: Install git
         run: |
