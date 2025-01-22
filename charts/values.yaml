@@ -15,18 +15,13 @@ server:
     data:
       MONGO_DATABASE: respondnow
       SLACK_INCIDENT_CHANNEL_ID: ""
-      ZOOM_LINK: "http://my-example-zoom-link"
-      ENABLE_SLACK_CLIENT: "false"
-      INCIDENT_CHANNEL_ID: ""
-      CONNECTION_MODE: "SOCKET"
-      DEFAULT_USER_ID: "admin"
       DEFAULT_USER_EMAIL: "admin@respondnow.io"
       DEFAULT_USER_NAME: "Admin"
       DEFAULT_USER_PASSWORD: "respondnow"
   secret:
     data:
       MONGO_URI: "mongodb://root:1234@respondnow-mongodb:27017"
-      JWT_SECRET: ""
+      JWT_SECRET: "3iMkWJA5hD4DA7Nqe3GNOc1GfMtEsHyRiJcQdsxB2mc8JhySOUeBVYNRxfqBtijQ"
       SLACK_APP_TOKEN: ""
       SLACK_BOT_TOKEN: ""
   ingress:
