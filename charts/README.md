@@ -101,7 +101,7 @@ Helm chart for RespondNow services
 | server.replicaCount | int | `1` |  |
 | server.resources | object | `{}` |  |
 | server.secret.data.JWT_SECRET | string | `""` |  |
-| server.secret.data.MONGO_URI | string | `"mongodb://respondnow:root@respondnow-mongodb:27017"` |  |
+| server.secret.data.MONGO_URI | string | `"mongodb://root:1234@respondnow-mongodb:27017"` |  |
 | server.secret.data.SLACK_APP_TOKEN | string | `""` |  |
 | server.secret.data.SLACK_BOT_TOKEN | string | `""` |  |
 | server.service.port | int | `8080` |  |

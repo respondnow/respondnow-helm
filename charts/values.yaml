@@ -25,7 +25,7 @@ server:
       DEFAULT_USER_PASSWORD: "respondnow"
   secret:
     data:
-      MONGO_URI: "mongodb://respondnow:root@respondnow-mongodb:27017"
+      MONGO_URI: "mongodb://root:1234@respondnow-mongodb:27017"
       JWT_SECRET: ""
       SLACK_APP_TOKEN: ""
       SLACK_BOT_TOKEN: ""
