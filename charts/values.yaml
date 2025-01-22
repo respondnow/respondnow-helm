@@ -26,7 +26,7 @@ server:
   secret:
     data:
       MONGO_URI: "mongodb://root:1234@respondnow-mongodb:27017"
-      JWT_SECRET: ""
+      JWT_SECRET: "3iMkWJA5hD4DA7Nqe3GNOc1GfMtEsHyRiJcQdsxB2mc8JhySOUeBVYNRxfqBtijQ"
       SLACK_APP_TOKEN: ""
       SLACK_BOT_TOKEN: ""
   ingress:
